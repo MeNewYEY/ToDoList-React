@@ -1,4 +1,52 @@
 @import "~bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Piedra&family=Playfair+Display&display=swap');
+
+
+body{
+   background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,0.5749650201877626) 0%, rgba(148,187,233,0.9223039557619923) 100%);
+}
+
+.fa-angellist .fa-list-alt{
+    font-size: 40px;
+}
+
+.fa-trash-al{
+    font-size: 10px;
+}
+
+h1{
+    font-family: 'Piedra', cursive;
+    font-size: 60px;
+}
+
+
+.card{
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    margin: auto;
+}
+
+li, button {
+    list-style: none;    
+    border: none;
+}
+
+button:focus,
+button{
+    outline: none;
+    background-color: transparent;
+}
+
+
+input{
+    width: 100%;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+
 
 /* 
 
