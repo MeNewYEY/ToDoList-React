@@ -1,5 +1,6 @@
 import React from "react";
 import ShowItems from "./ShowItems";
+import CountItems from "./CountItems";
 
 class TodoList extends React.Component {
 	constructor(props) {
@@ -60,11 +61,16 @@ class TodoList extends React.Component {
 								placeholder="What needs to be done?"
 							/>
 						</form>
-
 						<ShowItems
 							entries={this.state.items}
 							delete={this.deleteItem}
 						/>
+
+						<p className="card-text p-2">
+							<small className="text-muted">
+								<CountItems count={this.state.items.length} />
+							</small>
+						</p>
 					</ul>
 				</div>
 			</div>

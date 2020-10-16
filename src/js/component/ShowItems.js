@@ -18,6 +18,7 @@ class ShowItems extends React.Component {
 				<li className="list-group-item p-2 flex-grow-1" key={item.key}>
 					{item.text}
 				</li>
+
 				<button className="p-2" onClick={() => this.delete(item.key)}>
 					<i className="far fa-trash-alt" />
 				</button>
